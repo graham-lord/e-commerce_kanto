@@ -1,0 +1,45 @@
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  color: black;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.l-r {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+.main{
+  width: 100%;
+}
+
+.shop-name {
+  font-size: 40px;
+  text-align: center;
+}
+
+.sign-up {
+  text-align: center;
+}
