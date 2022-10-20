@@ -1,0 +1,21 @@
+* {
+  /* border: 1px solid black; */
+  margin: 0px;
+  padding: 0px;
+}
+.products {
+  width: 60%;
+  margin: 0px auto;
+  margin-bottom: 400px; 
+}
+
+.product-text {
+  display: flex;
+  justify-content: space-between;
+}
+.product-imd {
+  width: 18%;
+}
+img {
+  width: 200px;
+}

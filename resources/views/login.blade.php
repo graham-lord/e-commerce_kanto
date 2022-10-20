@@ -1,3 +1,5 @@
+@extends('layouts.layout1')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,25 +13,25 @@
 <div class="login-card">
   <header>
       <h2>Login</h2>
-      <p>Login to your account to buy parts</p>
+      <p class="buy-parts">Login to your account to buy parts</p>
   </header>
   <form method="POST" action="/users/authenticate" autocomplete="off">
     @csrf
     <div>
       <label for="email">Email</label> <br>
-      <input type="email" name="email"/> <br><br>
+      <input class="input" type="email" name="email"/> <br><br>
       @error('email')
         <p>{{$message}}</p>
       @enderror
     </div>
     <div>
       <label for="password"> Password </label> <br>
-      <input type="password" name="password" /><br><br>
+      <input class="input" type="password" name="password" /><br><br>
       @error('password')
         <p>{{$message}}</p>
       @enderror
     </div>
-    <div class="mb-6">
+    <div class="btn">
       <button type="submit"> Login </button>
     </div>
     <div>
@@ -41,3 +43,4 @@
 </div>
 </body>
 </html>
+@endsection

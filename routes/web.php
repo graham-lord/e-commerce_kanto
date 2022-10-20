@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -25,3 +26,4 @@ Route::get('/home', [UserController::class, 'home']);
 Route::post('/users', [UserController::class, 'store']);
 Route::post('/logout', [UserController::class, 'logout']);
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
+Route::get('/products', [ProductController::class, 'index']);
