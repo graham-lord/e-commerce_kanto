@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>CSK</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -20,10 +20,10 @@
         </div>
         <div class="main">
             <div class="shop-name">Computer Shop sa Kanto</div>
-            <div class="sign-up">Register to get Started</div>
+            <div class="sign-up"><a href="/register">Register to get Started</a></div>
         </div>
         <div class="footer">
-            Copyrights - All rights reserve
+            Copyright 2022 - Team Kanto
         </div>
     </div>
 </body>

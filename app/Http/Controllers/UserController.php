@@ -55,4 +55,13 @@ class UserController extends Controller
     public function home() {
         return view('/home');
     }
+
+    public function logout(Request $request) {
+        auth()->logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/');
+    }
 }

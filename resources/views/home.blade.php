@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yowwww</title>
-</head>
-<body>
-  <div class="home">
-    <p>Welcome {{auth()->user()->name}}</p>
+@extends('layout')
+
+@section('content')
+  <div class="main">
+      <div class="main-bg">Upgrade your Computer</div>
+      <div class="main-sm">with our cheap computer parts.</div>
   </div>
-</body>
-</html>
+@endsection
