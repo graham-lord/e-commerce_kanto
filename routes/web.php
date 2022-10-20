@@ -26,6 +26,6 @@ Route::get('/home', [UserController::class, 'home']);
 Route::post('/users', [UserController::class, 'store']);
 Route::post('/logout', [UserController::class, 'logout']);
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
+Route::post('/addProduct', [ProductController::class, 'store']);
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/productForm', [ProductController::class, 'show']);
-Route::post('/productForm', [ProductController::class, 'create']);

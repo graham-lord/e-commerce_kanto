@@ -53,6 +53,11 @@
         <div class="product">
           <img src="/images/keyboard.png" alt="a very fast processor">
         </div>
+        @foreach($products as $product)
+        <div class="important">
+          <img src="{{ asset('uploads/products/' . $product->product_image) }}" />
+        </div>
+        @endforeach
       </div>
     </div>
   </body>

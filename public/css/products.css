@@ -30,3 +30,7 @@ body {
 img {
   border: 2px solid black;
 }
+
+.important {
+  border: 10px solid blue;
+}
