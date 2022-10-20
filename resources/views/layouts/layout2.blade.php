@@ -15,10 +15,10 @@
         <p>Welcome {{auth()->user()->name}}</p>
       </div>
       <ul>
-        <li><a href=""></a>Home</li>
-        <li><a href=""></a>Products</li>
-        <li><a href=""></a>About</li>
-        <li><a href=""></a>Contact</li>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
         <li class="logout">
           <form action="/logout" method="POST">
             @csrf
