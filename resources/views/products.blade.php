@@ -10,7 +10,12 @@
     <div class="product-card">
       <div class="category">
         <div class="all">
-          All Products
+        <select name="products" id="products">
+          <option value="all">All Products</option>
+          <option value="cpu">CPU</option>
+          <option value="gpu">Graphics Card</option>
+          <option value="ram">RAM</option>
+        </select>
         </div>
         <div class="add">
           <a href="/productForm">Add Product</a>
@@ -18,7 +23,7 @@
       </div>
       <div class="product-flex">
         <div class="product">
-          <img src="/images/cpu.png" alt="a very fast processor">
+          <a href="/products/sample"><img src="/images/cpu.png" alt="a very fast processor"></a>
         </div>
         <div class="product">
           <img src="/images/cpu.png" alt="a very fast processor">

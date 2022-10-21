@@ -1,0 +1,17 @@
+.sample-card {
+  width: 50%;
+  margin: 0px auto;
+  border: 1px solid black;
+  display: flex;
+  padding: 50px 10px;
+  margin-bottom: 100px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.counter {
+  width: 10%;
+}

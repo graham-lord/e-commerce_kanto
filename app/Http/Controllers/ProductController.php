@@ -16,10 +16,14 @@ class ProductController extends Controller
     public function show() {
         return view('productForm');
     }
+    public function showSample() {
+        return view('product_sample');
+    }
 
     public function store(Request $request) {
         $product = new Product();
         $product->name = $request->input('name');
+        $product->price = $request->input('price');
         $product->description = $request->input('description');
         if($request->hasFile('product_image')) {
             $file = $request->file('product_image');
@@ -30,6 +34,6 @@ class ProductController extends Controller
         }
 
         $product->save();
-        return redirect('/home');
+        return redirect('/products');
     }
 }

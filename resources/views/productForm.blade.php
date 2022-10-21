@@ -17,6 +17,10 @@
           <input class="input" type="text" name="name"><br><br>
         </div>
         <div>
+          <label for="price">Price</label><br>
+          <input class="input" type="text" name="price"><br><br>
+        </div>
+        <div>
           <label for="description">Description</label><br>
           <input class="input" type="textbox" name="description"><br><br>
         </div>
