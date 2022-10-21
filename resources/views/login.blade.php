@@ -21,14 +21,14 @@
       <label for="email">Email</label> <br>
       <input class="input" type="email" name="email"/> <br><br>
       @error('email')
-        <p>{{$message}}</p>
+        <p class="error">{{$message}}</p>
       @enderror
     </div>
     <div>
       <label for="password"> Password </label> <br>
       <input class="input" type="password" name="password" /><br><br>
       @error('password')
-        <p>{{$message}}</p>
+        <p class="error">{{$message}}</p>
       @enderror
     </div>
     <div class="btn">
@@ -36,7 +36,7 @@
     </div>
     <div>
       <p>
-        Don't have an account?<a href="/register" class="text-laravel">Register</a>
+        Don't have an account?<a href="/register" class="register-l"> Register</a>
       </p>
     </div>
   </form>

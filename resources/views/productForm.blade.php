@@ -25,7 +25,7 @@
           <input class="input" type="textbox" name="description"><br><br>
         </div>
         <div>
-          <label for="product_image">Choose product image</label><br>
+          <label for="product_image">Pick product image</label><br>
           <input type="file" name="product_image">
         </div>
         <br>

@@ -11,10 +11,10 @@
 <body>
   <div class="home">
     <div class="header">
-      <div class="logo"><a href="/home">CSK</a></div>
+      <div class="logo"><a href="/home"><img class="logo-img" src="/images/logo.png" alt="asdads"></a></div>
       <div class="user">
         </div>
-        <ul>
+        <ul class="navbar">
         <p class="username">Welcome {{auth()->user()->name}}</p>
         <li><a href="/home">Home</a></li>
         <li><a href="/products">Products</a></li>
@@ -23,7 +23,7 @@
         <li class="logout">
           <form action="/logout" method="POST">
             @csrf
-            <button type="submit">
+            <button type="submit" class="logt">
               Logout
             </button>
           </form>

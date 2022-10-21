@@ -20,38 +20,38 @@
       @csrf
       <div class>
         <label for="name">Name</label> <br>
-        <input class="input" type="text" name="name"/> <br><br>
+        <input class="input" type="text" name="name" placeholder="username"/> <br><br>
         @error('name')
-          <p>{{$message}}</p>
+          <p class="error">{{$message}}</p>
         @enderror
       </div>
       <div>
         <label for="email">Email</label> <br>
-        <input class="input" type="email" name="email"/> <br><br>
+        <input class="input" type="email" name="email" placeholder="juandelacruz@hotmail.com"/> <br><br>
         @error('email')
-          <p>{{$message}}</p>
+          <p class="error">{{$message}}</p>
         @enderror
       </div>
       <div>
         <label for="password"> Password </label> <br>
-        <input class="input" type="password" name="password" /><br><br>
+        <input class="input" type="password" name="password"/><br><br>
         @error('password')
-          <p>{{$message}}</p>
+          <p class="error">{{$message}}</p>
         @enderror
       </div>
       <div>
         <label for="password_confirmation"> Confirm Password </label> <br>
         <input class="input" type="password" name="password_confirmation"/> <br><br>
         @error('password_confirmation')
-          <p>{{$message}}</p>
+          <p class="error">{{$message}}</p>
         @enderror
       </div>
       <div class="btn">
-        <button type="submit"> Sign Up </button>
+        <button type="submit"> Sign up </button>
       </div>
       <div>
         <p>
-          Already have an account?<a href="/login" class="text-laravel"> Login</a>
+          Already have an account?<a href="/login" class="login-r"> Login</a>
         </p>
       </div>
     </form>

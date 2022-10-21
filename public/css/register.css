@@ -1,8 +1,7 @@
 * {
-  /* border: 1px solid brown; */
 }
 .register-card {
-  border: 2px solid black;
+  /* border: 1px solid #000; */
   margin: 0px auto;
   width:300px;
   display: flex;
@@ -10,13 +9,19 @@
   align-items: center;
   flex-direction: column;
   padding: 10px 0px;
+  background: hsl(225, 39%, 28%);
+  border-radius: 20px;
+  color: black;
 }
 h2 {
   text-align: center;
 }
-
+header {
+  margin-bottom: 20px;
+}
 .input {
   width: 100%;
+  color: black;
 }
 
 .buy-parts {
@@ -26,4 +31,15 @@ button {
   margin: 0px auto;
   padding: 7px 13px;
   margin-left: 30%;
+  color: black;
+  background-color: hsl(250, 20%, 53%);
+  border-radius: 10px;
+  border-color: hsl(250, 40%, 60%);
+}
+button:hover {
+  background-color: hsl(250, 40%, 70%);
+}
+
+.login-r {
+  color: hsl(120, 80%, 60%);
 }

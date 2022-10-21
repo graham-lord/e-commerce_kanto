@@ -21,7 +21,7 @@
           <option value="3">3</option>
           <option value="4">4</option>
         </select>
-        <button>Add to Cart</button>
+        <button class="addc">Add to Cart</button>
       </div>
       <h4>Product Details</h4>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque tenetur perspiciatis tempore deserunt, exercitationem voluptatum quas quod consequatur iste mollitia.</p>

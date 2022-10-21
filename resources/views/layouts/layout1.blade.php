@@ -11,11 +11,12 @@
    <div class="welcome">
      <div class="header">
         <div class="logo">
-          <span class="logo-1">K</span><span class="logo-2">CS</span>
+          <!-- <a href="/"><span class="logo-1">K</span><span class="logo-2">CS</span></a> -->
+          <a href="/"><img src="/images/logo.png" alt="asdads"></a>
         </div>
         <ul class="register-login">
-          <li><a href="/register">Register</a></li>
-          <li><a href="/login">Login</a></li>
+          <li ><a href="/register" class="register">Register</a></li>
+          <li ><a href="/login" class="login">Login</a></li>
         </ul>
      </div>
      @yield('content')

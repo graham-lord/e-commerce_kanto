@@ -1,16 +1,37 @@
 .productForm-card {
-  margin: 0px auto;
+  /* margin: 0px auto;
   width: 300px;
   padding: 20px;
   border: 2px solid black;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center; */
+  margin: 0px auto;
+  width:300px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 10px 0px;
+  background: hsl(225, 39%, 48%);
+  border-radius: 20px;
 }
 .input {
   width: 100%;
 }
 h2 {
   margin-bottom: 20px;
+}
+button {
+  margin: 0px auto;
+  padding: 7px 13px;
+  margin-left: 30%;
+  color: black;
+  background-color: hsl(250, 20%, 70%);
+  border-radius: 10px;
+  border-color: hsl(250, 40%, 60%);
+}
+button:hover {
+  background-color: hsl(250, 40%, 80%);
 }

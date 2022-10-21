@@ -3,8 +3,12 @@
   margin: 0px auto;
   border: 1px solid black;
   display: flex;
-  padding: 50px 10px;
+  padding: 75px 40px;
   margin-bottom: 100px;
+  gap: 20px;
+  background-color: hsl(250, 40%, 60%);
+  border-radius: 20px;
+
 }
 .details {
   display: flex;
@@ -14,4 +18,15 @@
 
 .counter {
   width: 10%;
+}
+.addc {
+  margin: 0px auto;
+  padding: 7px 13px;
+  color: black;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border-color: hsl(250, 40%, 60%);
+}
+.addc:hover {
+  background-color: hsl(250, 40%, 80%);
 }

@@ -18,7 +18,7 @@
         </select>
         </div>
         <div class="add">
-          <a href="/productForm">Add Product</a>
+          <a href="/productForm">Sell Product</a>
         </div>
       </div>
       <div class="product-flex">
