@@ -36,4 +36,7 @@ class ProductController extends Controller
         $product->save();
         return redirect('/products');
     }
+    public function showContact() {
+        return view('contacts');
+    }
 }

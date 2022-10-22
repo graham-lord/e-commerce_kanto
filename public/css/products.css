@@ -28,9 +28,21 @@ body {
 }
 
 img {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  border-radius: 8px;
 }
+.sell {
+  background-color: aquamarine;
+  color: black;
+  padding: 8px 7px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.sell:hover {
+  background-color: hsl(160, 100%, 85%);
+  font-size: 1rem;
 
+}
 .important {
   border: 10px solid blue;
 }

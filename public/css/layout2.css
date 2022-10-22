@@ -16,7 +16,7 @@ a {
   color: hsl(0, 0%, 90%);
 }
 a:hover {
-  font-size: 1.2rem;
+  color: hsl(120, 50%, 50%);
 }
 .main {
   margin-bottom: 100px;
@@ -74,11 +74,10 @@ ul {
   color: white;
   padding: 5px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-top: -10px;
 }
 .logt:hover{
   background-color: hsl(0, 100%, 60%);
-  
 }
 .username {
   margin-right: 10px;
@@ -86,4 +85,13 @@ ul {
 }
 .logo-img {
   width: 50px;
+}
+
+.contact-card {
+  border: 1px solid white;
+  background-color: hsl(245, 39%, 48%);
+  margin: 0px auto;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
 }

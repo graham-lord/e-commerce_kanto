@@ -18,13 +18,21 @@
         </select>
         </div>
         <div class="add">
-          <a href="/productForm">Sell Product</a>
+          <a href="/productForm" class="sell">Sell Product</a>
         </div>
       </div>
       <div class="product-flex">
         <div class="product">
           <a href="/products/sample"><img src="/images/cpu.png" alt="a very fast processor"></a>
         </div>
+        <div class="polaroid">
+          <img src="/images/cpu.png" alt="5 Terre" >
+          <div class="container">
+          <p>Cinque Terre</p>
+          </div>
+        </div>
+
+      
         <div class="product">
           <img src="/images/cpu.png" alt="a very fast processor">
         </div>

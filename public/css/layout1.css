@@ -45,7 +45,11 @@
 .main{
   width: 100%;
 }
-
+h2 {
+  text-align: center;
+  color: aquamarine;
+  margin-top: 10px;
+}
 .shop-name {
   font-size: 50px;
   text-align: center;

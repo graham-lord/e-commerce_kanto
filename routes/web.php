@@ -29,4 +29,5 @@ Route::post('/users/authenticate', [UserController::class, 'authenticate']);
 Route::post('/addProduct', [ProductController::class, 'store']);
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/productForm', [ProductController::class, 'show']);
+Route::get('/contacts', [ProductController::class, 'showContact']);
 Route::get('/products/sample', [ProductController::class, 'showSample']);
